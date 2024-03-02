@@ -1,5 +1,5 @@
 ## What exactly is React Native?
-    - `React.js` is a JavaScript library for building user interfaces and it is tyically used for web development.
+    - `React.js` is a JavaScript library for building user interfaces and it is typically used for web development.
     - `React Native` is an alternative to the `React.js` that is a collection of "special" React components that are compiled to native UI elements.
     - One code for different platforms!
 
@@ -28,7 +28,7 @@
 ## Event Listeners and Event Handler Functions:
     - **Event Listeners:** The event  listening props that are  provided by `react-native` on its components. For example, `onChangeText` and `onPress` are listeners in `TextInput` and `Button` components, respectively. These props want a **function** as a value. A pointer at a function.
     - **Event Handler Functions:** Some defined functions in the components that are used as a `call back function` in the course of events. As the first step, we need to connect these functions to the the event listeners. The values entered in the event listeners are used in these functions.
-    - **useState Hook:** It lets us use **state** and other React features without writing a class. The values entered in an event needs to be stored in a state. Then, it is possible to use them.
+    - **useState Hook:** It lets us use **state** and other React features without writing a class. The values entered in an event needs to be stored in a state. Then, it is possible to use them. We can only use hooks inside a function components.
     - **FaltList** is a substitute to the **ScrollView** except we do not manual mapping anymore. **FlatList** requires 2 important props: `data` and `renderItem`. **renderItem** needs a function that takes the item meta data.
     -
 
@@ -42,12 +42,13 @@
     - To add styling we need to use style prop that can be used not for all components but for some of them like `View`, `Text`, and so on
     - For each component there are different keywords.
     - There are some props in `ScrollView` that depends on IOS and some to Android.
-    -
+    - **Flexbox** has to axes: `Main axis` and `Cross axis`
 
 ## Debugging
     - Following error messages
-    - using `console.log()` command
-    - install and use `react-devtools`
+    - Using `console.log()` command
+    - Using web browser to find the error.
+    - Installing and using of `react-devtools`
 
 
 
