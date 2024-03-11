@@ -5,3 +5,8 @@
 
 ### List of Blogs:
     - https://legacy.reactjs.org/docs/hooks-state.html
+    - https://semaphoreci.com/blog/unit-tests-nodejs-jest
+
+
+### List of Books:
+    - https://github.com/getify/You-Dont-Know-JS
